@@ -3,5 +3,6 @@
 </div>
 
 @code {
-    private int CurrentCounterValue = 42;
+    [Parameter]
+    public int CurrentCounterValue { get; set; }
 }
